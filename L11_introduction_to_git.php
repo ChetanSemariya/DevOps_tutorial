@@ -4,6 +4,7 @@
 
 Software Configuration Management OR Source Code Management :-
  => It is a tool jo humare code ke version ko sambhal kr rakhta hai
+ => GitHub ka phle naam Logical Awesome tha
  
 What is Version ?
 A). Let say my version v1 contains xyz and my upgraded version v1.1 contains xyz, abc so this is my version management, isi version ko manage krne ka kaam source code management ka tha
