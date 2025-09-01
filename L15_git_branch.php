@@ -35,12 +35,46 @@ Note:- Jab bhi hum branch banante hai to jaha se bhi branch ko bana rahe hai vo 
 
 => You can't Merge branches of different Repositories
 => We use "Pulling Mechanism" to Merge Branches (i.e jo bhi new code mai vo automatically updte hojayga)
-=> git merge <branch name>
+=> git merge <branch name jise merge karna chahte hai>
 => git log (To verify the merge)
 => git push origin master (to push to central repo like gitHub)
 => Merge copy & paste ka kaam krta hai cut-paste ka nahi
 
+************** GIT CONFLICT *******************
 
+Definition :- When same name file having different content in different branches, if you do merge, conflict occurs (Resolve conflict then add and commit) i.e git confuse hojata hai ki kis file ko phle rakhna hai and kise baad mai jisse conflict arise hojata hai
+=> Conflict occurs when you merge Branches
+
+************** GIT STASH **********************
+
+Definition :- Kind of temporary storage jaha pr hum humara code rakh skte hai and humari working directory ko free krkste hai kisi or work ke liye
+
+=> Suppose you are implementing a new feature for your product. Your code is in progress and suddenly a Customer escalation comes Because of this, you have to keep aside your new feature work for few hours, you cannot commit your partial code and also cannot throw away your changes. So you need some temporary storage, when you can store your partial changes and later on commit it.
+=>**** To Stash an item (only applies to modifies files not new files)
+
+// ------ STASH COMMANDS ------------ //
+
+git stash (to stash an item)
+git stash list (to see stashed items list)
+git stash apply stash@{0} => stash se file ko vapas laane ke liye iska use hota hai here {0} represent latest file
+
+Note:- Jab bhi hum stash se data ko leke aate hai to uski ek copy vaha pr bhi rahti hai i.e data copy paste hota hai cut-paste nahi to use delete krne ke liye hum iss command ka use krte hai
+
+git stash clear (to clear the stash)
+
+**************** GIT RESET ********************
+
+Definition :- git reset is a powerful command that is used to undo local changes to the state of a git repo.
+=> jAB bhi code local repository se staging area pr pahuch jaata hai and hum abhi bhi code mai changes krna chahte hai to git reset ka use krke use staging area se hata skte hai
+
+To reset staging area :-
+
+git reset <filename>
+git reset . (staging area mai jo bhi hai use reset krdo)
+
+=> **** To reset the changes from both staging area and working directory at a time i.e file dono jagah se delete hojaygi
+
+git reset --hard
 
 
 */
