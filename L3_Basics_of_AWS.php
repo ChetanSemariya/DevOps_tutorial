@@ -37,19 +37,4 @@ Availability Zone :- Jiss region ke andar availability hai cloud ki, har region 
 # Cloud :- Whatever you are accessing from the internet is cloud. Cloud is not storage or cloud is also not a server. Cloud is a service which gives you resources (server, storage) which you can use from remote location and you can pay according to your usage.
 Ex:- Google Drive
             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 */

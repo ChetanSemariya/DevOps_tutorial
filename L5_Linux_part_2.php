@@ -17,7 +17,7 @@ Inward Structure -
 
 ****** Linux Architecture :-
 
-Note:- IN case of Linux Kernel hardware ke sath interact krta hai and shell user ke sath
+Note:- IN case of Linux, Kernel hardware ke sath interact krta hai and shell user ke sath
 
 Outward Structure -
     Hardware (core layer) -> Kernal -> Shell (respond to) -> User
@@ -78,7 +78,7 @@ V        V      V        V        V        V
 /etc => It contains all configuration files (All hardware informations)
 /usr => By default software are installed in this directory
 /bin => It contains commands used by all users including root user here /bin means binary
-/sbin => here sbin meand system binary. IT contains commands used by only root user
+/sbin => here sbin means system binary. IT contains commands used by only root user
 /opt  => Optional application software packages (kuch packages jo usr mai defined nahi hote hai vo yaha pr hote hai)
 /dev  => Essential device files this include terminal devices, USB or any device attached to the system
 

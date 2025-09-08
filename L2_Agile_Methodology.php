@@ -14,7 +14,7 @@
 
 Note:- SDLC mai sabse main problem yahi thi ki development team and operational team mai blaming chalti rahti thi ek dusre pr because dono ek dusre pr dependent the and agar operational team ke pass kuch bhi problem aati thi to vo development team ko bolte the and frr development team work krke again testing ke liye dete the to isme bahut time consuming hota tha because sare procedure manual tha and aapas mai kuch bhi online interconnectivity nahi thi that means koi automatiion is mission
 => Lack of co-ordination between Development Team and Operational Team
-=> Everything is Manual so it consumes lack of time
+=> Everything is Manual so it consumes a lot of time
 => working on waterfall model that means building banane ke baad hum usme changes nahi krskte that means changes krna possible nahi hota tha
 
 **************** Solution of this Limitation is DevOps **********************
