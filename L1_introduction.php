@@ -73,4 +73,5 @@ NOTE:- Jo AWs ke khud ke tools hai isme hum jenkins ya phir chef ka use nahi krt
 2). Artifact
 
 ** NOTE :- DevOps / AWS DevOps / Azure DevOps Teeno alag alag chize hai, working principle same hai but the difference is that aws and azure apne khud ke tools ka use krte hai jo ki ek dependent tool hai and paid bhi hai and DevOps ke jo tool hai vo Open source hai and usme transparency bhi hai isliye market mai DevOps jyada popular hai because these are open source isme hum kisi pr bhi kaam krskte hai cloud pr
+
 */
