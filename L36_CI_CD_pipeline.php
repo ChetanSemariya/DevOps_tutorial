@@ -89,6 +89,8 @@ Test --------------- Selenium Tool
 Deploy + Operate ===> Chef Tool or pupet
 Monitor ====> Nagios
 
+Note:- Jenkins Development and Operational part ko integrate krne ke kaam mai aata hai and yhh sabhi work automate krdeta hai like as jese hi developer ne code ko github pr push kiya jenkins use vha se uthayga or uski build bana dega and Maven ke pass bhej dega test krne ke liye
+
 
 
 */
